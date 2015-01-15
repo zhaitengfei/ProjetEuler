@@ -3,6 +3,8 @@ package tzhai.euler.lib;
 public class MathLib {
 
 	public static boolean isPrime(long a) {
+		if (a <= 1)
+			return false;
 		if (a == 2)
 			return true;
 		else {
